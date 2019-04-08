@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <base [href]="/">
+<link rel="stylesheet" type="text/css" href="register.component.css">
+
+
+  </head>
+<body>
+<div class="page-wrapper">
+
+  <h3>New Registered Artist Signup</h3>
+
+  <p class="button is-small" (click)="toggleForm()">Need to Register?</p>
+  <hr>
+
+<div class="input-group">
+  <input type="email" class="form-control" placeholder="Email" ng-model="authCtrl.user.email">
+</div>
+<div class="input-group">
+    <input type="password" class="form-control" placeholder="Password" ng-model="authCtrl.user.password">
+  </div>
+  <button type="submit" class="button" [disabled]="!registerForm.valid">Submit</button>
+</form>
+
+
+<form [formGroup]="registerForm" *ngIf="!registerUser" (ngSubmit)="login()">
+
+  <h3>Existing Artist Login</h3>
+  <hr>
+  <p class="button is-small" (click)="toggleForm()">Login to be redirected to console</p>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email2" class="input" formControlName="email" required autocomplete="new-password">
+
+
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password2" class="input" formControlName="password" required autocomplete="new-password">
+
+
+  <button type="submit" class="button" [disabled]="!registerForm.valid">Submit</button>
+
+
+
+</form>
+<form [formGroup]="passwordresetForm" *ngIf="registerUser" (ngSubmit)="login()">
+
+    <h3>Existing Artist Password Reset</h3>
+    <hr>
+    <p class="button is-small" (click)="toggleForm()">Enter email and password reset instructions will be emailed to you</p>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email2" class="input" formControlName="email" required autocomplete="new-password">
+
+    <button type="submit" class="button" [disabled]="registerForm.valid">Submit</button>
+
+</form>
+</div>
+</body>
+</html>
