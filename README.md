@@ -25,17 +25,23 @@ About products organization you can read in docs for services, for example, `Pro
 ### Creating other connectors 
 If you want to create you own connector you must adopt it to `ElasticSearch flashlight` output.
 
-### Docs
+### For Developers working for equity for ArtistsTradingCard.com Inc. please see full disclosure under Investor Relations on website.  Please email welcome.aboard@artiststradingcard.com   Attn:  software dev interest -Please include this in subject line to make sure email is forwarded to Isaac.
 
-To create documentation: 
-```
-npm i
-npm run build-docs
-```
 
-To serve documentation: 
-```
-npm run serve-docs
+### To Do
+
+-Products are the cards that exist on artiststradingcard.com are first uploaded and minted in a users profile.
+
+-Add Routing - Login==>Profile==>==>add-cards==>browse=products==>add-products-to-basket==>Checkout         Assigned to:  Isaac
+
+- Set database schema                Assigned to:  Tony                 --Please see dal
+
+- Fix index in root to start routing in register.component        Assigned to:  Isaac
+
+
+
+
+
 ```
 
 
