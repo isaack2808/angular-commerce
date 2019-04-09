@@ -2,10 +2,6 @@
 
 Online store components written in Angular.  
 
-Full API and documentation check [here](https://nodeart.github.io/).
-
-Check change log [here](https://github.com/NodeArt/angular-commerce/blob/master/CHANGELOG.md)
-
 ## Store architecture
 
 ### Components dependencies
@@ -30,13 +26,13 @@ If you want to create you own connector you must adopt it to `ElasticSearch flas
 
 ### To Do
 
--Products are the cards that exist on artiststradingcard.com are first uploaded and minted in a users profile.
+-Products are the cards that exist on artiststradingcard.com are first uploaded and minted in artists-detail(profile) page.
 
--Add Routing - Login==>Profile==>==>add-cards==>browse=products==>add-products-to-basket==>Checkout         Assigned to:  Isaac
+-Add Routing - Register/Login==>Artists-detail==>add-cards==>browse=products==>add-products-to-basket==>Checkout         
 
-- Set database schema                Assigned to:  Tony                 --Please see dal
+- Set database schema                                --Please see dal
 
-- Fix index in root to start routing in register.component        Assigned to:  Isaac
+- Fix index in root to start routing in register.component     
 
 
 
