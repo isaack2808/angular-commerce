@@ -21,7 +21,10 @@ About products organization you can read in docs for services, for example, `Pro
 ### Creating other connectors 
 If you want to create you own connector you must adopt it to `ElasticSearch flashlight` output.
 
-### For Developers working for equity for ArtistsTradingCard.com Inc. please see full disclosure under Investor Relations on website.  Please email welcome.aboard@artiststradingcard.com   Attn:  software dev interest -Please include this in subject line to make sure email is forwarded to Isaac.
+### For Developers working for equity for ArtistsTradingCard.com Inc. 
+
+Please see full disclosure under Investor Relations on website.  
+If you are interested in contributing to this project please email welcome.aboard@artiststradingcard.com   Attn:  software dev interest -Please include this in subject line to make sure email is forwarded to Isaac.
 
 
 ### To Do
